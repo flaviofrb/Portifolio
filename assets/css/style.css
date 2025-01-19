@@ -79,6 +79,13 @@
     margin-top: 16px;
 }
 
+.service {
+    min-height: 300px; /* Altura mínima */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
 
 body {
     background-color: var(--color-base2);
